@@ -65,6 +65,7 @@ bash <(curl -s https://codecov.io/bash) || echo "Codecov did not collect coverag
 
 
 ### CI Providers
+
 |                       Company                       |                                                                    Supported                                                                     | Token Required   |
 | --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------- |
 | [Travis CI](https://travis-ci.org/)                 | Yes [![Build Status](https://secure.travis-ci.org/codecov/codecov-bash.svg?branch=master)](http://travis-ci.org/codecov/codecov-bash)                                                         | Private only     |
@@ -84,10 +85,8 @@ bash <(curl -s https://codecov.io/bash) || echo "Codecov did not collect coverag
 | [Wercker](http://wercker.com/)                      | Yes                                                                                                                                              | Public & Private |
 | [Shippable](http://www.shippable.com/)              | Yes                                                                                                                                              | Public & Private |
 | [Gitlab CI](https://about.gitlab.com/gitlab-ci/)    | Yes                                                                                                                                              | Public & Private |
+| [GitHub Actions](https://github.com/features/actions)    | Yes                                                                                                                                              | Public & Private |
 | git                                                 | Yes (as a fallback)                                                                                                                              | Public & Private |
-
-
-> Using **Travis CI**? Uploader is compatible with `sudo: false` which can speed up your builds. :+1:
 
 
 ## Caveat
