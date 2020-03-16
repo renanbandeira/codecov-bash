@@ -6,7 +6,7 @@
 
 set -e +o pipefail
 
-VERSION="20200303-bc4d7e6"
+VERSION="20200316-40b1c41"
 
 url="https://codecov.io"
 env="$CODECOV_ENV"
